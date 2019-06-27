@@ -1,4 +1,6 @@
 // Problem Statement:: To find the second largest number
+// Sample input :: [8,5,4,19,20,21,7,6,3]
+// Sample output:: 20
 
 function secondLarge(arr) {
   let i = 0;
@@ -15,8 +17,5 @@ for(i; i <= arr.length; i++) {
   return secondLargest;
 }
 
-// Sample input :: [8,5,4,19,20,21,7,6,3]
 var arr = [8,5,4,19,20,21,7,6,3];
-// Sample output:: 20
-
 secondLarge(arr);
